@@ -18,6 +18,7 @@
 /day01/ex05/cmake-build-debug/
 /day01/ex06/.idea/
 /day01/ex06/cmake-build-debug/
+.DS_Store
 # Prerequisites
 *.d
 
