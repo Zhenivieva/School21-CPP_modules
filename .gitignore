@@ -1,5 +1,23 @@
-*/.idea/
-*/cmake-build-debug/
+/day00/ex00/.idea/
+/day00/ex00/cmake-build-debug/
+/day00/ex01/.idea/
+/day00/ex01/cmake-build-debug/
+/day00/ex02/.idea/
+/day00/ex02/cmake-build-debug/
+/day01/ex00/.idea/
+/day01/ex00/cmake-build-debug/
+/day01/ex01/.idea/
+/day01/ex01/cmake-build-debug/
+/day01/ex02/.idea/
+/day01/ex02/cmake-build-debug/
+/day01/ex03/.idea/
+/day01/ex03/cmake-build-debug/
+/day01/ex04/.idea/
+/day01/ex04/cmake-build-debug/
+/day01/ex05/.idea/
+/day01/ex05/cmake-build-debug/
+/day01/ex06/.idea/
+/day01/ex06/cmake-build-debug/
 # Prerequisites
 *.d
 
