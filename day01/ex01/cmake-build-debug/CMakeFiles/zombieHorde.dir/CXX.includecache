@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mmaryjan/projects/cpp/day01/ex01/Zombie.hpp
+iostream
+-
+
+/Users/mmaryjan/projects/cpp/day01/ex01/main.cpp
+Zombie.hpp
+/Users/mmaryjan/projects/cpp/day01/ex01/Zombie.hpp
+
