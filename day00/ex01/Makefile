@@ -22,7 +22,7 @@ OBJS	= $(SRCS:.cpp=.o)
 
 RM		= rm -rf
 
-CPP		= clang++
+CPP		= c++
 
 CFLAGS	= -Wall -Wextra -Werror -g
 

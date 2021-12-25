@@ -10,12 +10,13 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = zombieHorde
+NAME = violence
 
 DIR_OBJ = ./
 
-SRCS	=   ZombieHorde.cpp \
-			Zombie.cpp \
+SRCS	=   Weapon.cpp \
+			HumanA.cpp \
+			HumanB.cpp \
 			main.cpp \
 
 OBJS	= $(SRCS:.cpp=.o)

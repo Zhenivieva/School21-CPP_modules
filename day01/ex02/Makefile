@@ -10,13 +10,11 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = zombieHorde
+NAME = brain
 
 DIR_OBJ = ./
 
-SRCS	=   ZombieHorde.cpp \
-			Zombie.cpp \
-			main.cpp \
+SRCS	=   main.cpp \
 
 OBJS	= $(SRCS:.cpp=.o)
 

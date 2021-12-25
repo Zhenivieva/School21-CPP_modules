@@ -10,12 +10,11 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = zombieHorde
+NAME = karenFilter
 
 DIR_OBJ = ./
 
-SRCS	=   ZombieHorde.cpp \
-			Zombie.cpp \
+SRCS	=   Karen.cpp \
 			main.cpp \
 
 OBJS	= $(SRCS:.cpp=.o)

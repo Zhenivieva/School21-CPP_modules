@@ -6,7 +6,7 @@
 
 Zombie::Zombie() {}
 
-Zombie::Zombie(std::string name) { Zombie::_name = name;}
+Zombie::Zombie(const std::string &name) : _name(name) {}
 
 void Zombie::announce(void)
 {
