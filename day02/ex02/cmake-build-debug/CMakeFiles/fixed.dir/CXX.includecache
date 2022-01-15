@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mmaryjan/projects/cpp/day02/ex02/Fixed.cpp
+Fixed.hpp
+/Users/mmaryjan/projects/cpp/day02/ex02/Fixed.hpp
+
+/Users/mmaryjan/projects/cpp/day02/ex02/Fixed.hpp
+iostream
+-
+cmath
+-
+
+/Users/mmaryjan/projects/cpp/day02/ex02/main.cpp
+Fixed.hpp
+/Users/mmaryjan/projects/cpp/day02/ex02/Fixed.hpp
+iostream
+-
+

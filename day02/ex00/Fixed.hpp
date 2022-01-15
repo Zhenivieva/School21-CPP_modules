@@ -11,7 +11,7 @@ class Fixed
 {
 	private:
 		int _fPointValue;
-		static const int _nBits = 8;
+		static const int _fBits = 8;
 	public:
 		Fixed();
 		~Fixed();
