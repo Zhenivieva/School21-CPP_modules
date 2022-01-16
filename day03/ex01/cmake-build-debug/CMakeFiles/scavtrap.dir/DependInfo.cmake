@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mmaryjan/projects/cpp/day03/ex01/ClapTrap.cpp" "/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/CMakeFiles/claptrap.dir/ClapTrap.cpp.o"
-  "/Users/mmaryjan/projects/cpp/day03/ex01/ScavTrap.cpp" "/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/CMakeFiles/claptrap.dir/ScavTrap.cpp.o"
-  "/Users/mmaryjan/projects/cpp/day03/ex01/main.cpp" "/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/CMakeFiles/claptrap.dir/main.cpp.o"
+  "/Users/mmaryjan/projects/cpp/day03/ex01/ClapTrap.cpp" "/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/CMakeFiles/scavtrap.dir/ClapTrap.cpp.o"
+  "/Users/mmaryjan/projects/cpp/day03/ex01/ScavTrap.cpp" "/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/CMakeFiles/scavtrap.dir/ScavTrap.cpp.o"
+  "/Users/mmaryjan/projects/cpp/day03/ex01/main.cpp" "/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/CMakeFiles/scavtrap.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

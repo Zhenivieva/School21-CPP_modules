@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="claptrap">
-				<Option output="/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/claptrap" prefix_auto="0" extension_auto="0"/>
+			<Target title="scavtrap">
+				<Option output="/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/scavtrap" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -53,14 +53,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 claptrap"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 scavtrap"/>
 					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="claptrap/fast">
-				<Option output="/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/claptrap" prefix_auto="0" extension_auto="0"/>
+			<Target title="scavtrap/fast">
+				<Option output="/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/scavtrap" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -75,7 +75,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 claptrap/fast"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 scavtrap/fast"/>
 					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -83,19 +83,19 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/mmaryjan/projects/cpp/day03/ex01/ClapTrap.cpp">
-			<Option target="claptrap"/>
+			<Option target="scavtrap"/>
 		</Unit>
 		<Unit filename="/Users/mmaryjan/projects/cpp/day03/ex01/ClapTrap.hpp">
-			<Option target="claptrap"/>
+			<Option target="scavtrap"/>
 		</Unit>
 		<Unit filename="/Users/mmaryjan/projects/cpp/day03/ex01/ScavTrap.cpp">
-			<Option target="claptrap"/>
+			<Option target="scavtrap"/>
 		</Unit>
 		<Unit filename="/Users/mmaryjan/projects/cpp/day03/ex01/ScavTrap.hpp">
-			<Option target="claptrap"/>
+			<Option target="scavtrap"/>
 		</Unit>
 		<Unit filename="/Users/mmaryjan/projects/cpp/day03/ex01/main.cpp">
-			<Option target="claptrap"/>
+			<Option target="scavtrap"/>
 		</Unit>
 		<Unit filename="/Users/mmaryjan/projects/cpp/day03/ex01/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

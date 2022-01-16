@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named claptrap
+# Target rules for targets named scavtrap
 
 # Build rule for target.
-claptrap: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 claptrap
-.PHONY : claptrap
+scavtrap: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scavtrap
+.PHONY : scavtrap
 
 # fast build rule for target.
-claptrap/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/build
-.PHONY : claptrap/fast
+scavtrap/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/build
+.PHONY : scavtrap/fast
 
 ClapTrap.o: ClapTrap.cpp.o
 .PHONY : ClapTrap.o
 
 # target to build an object file
 ClapTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/ClapTrap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/ClapTrap.cpp.o
 .PHONY : ClapTrap.cpp.o
 
 ClapTrap.i: ClapTrap.cpp.i
@@ -142,7 +142,7 @@ ClapTrap.i: ClapTrap.cpp.i
 
 # target to preprocess a source file
 ClapTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/ClapTrap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/ClapTrap.cpp.i
 .PHONY : ClapTrap.cpp.i
 
 ClapTrap.s: ClapTrap.cpp.s
@@ -150,7 +150,7 @@ ClapTrap.s: ClapTrap.cpp.s
 
 # target to generate assembly for a file
 ClapTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/ClapTrap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/ClapTrap.cpp.s
 .PHONY : ClapTrap.cpp.s
 
 ScavTrap.o: ScavTrap.cpp.o
@@ -158,7 +158,7 @@ ScavTrap.o: ScavTrap.cpp.o
 
 # target to build an object file
 ScavTrap.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/ScavTrap.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/ScavTrap.cpp.o
 .PHONY : ScavTrap.cpp.o
 
 ScavTrap.i: ScavTrap.cpp.i
@@ -166,7 +166,7 @@ ScavTrap.i: ScavTrap.cpp.i
 
 # target to preprocess a source file
 ScavTrap.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/ScavTrap.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/ScavTrap.cpp.i
 .PHONY : ScavTrap.cpp.i
 
 ScavTrap.s: ScavTrap.cpp.s
@@ -174,7 +174,7 @@ ScavTrap.s: ScavTrap.cpp.s
 
 # target to generate assembly for a file
 ScavTrap.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/ScavTrap.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/ScavTrap.cpp.s
 .PHONY : ScavTrap.cpp.s
 
 main.o: main.cpp.o
@@ -182,7 +182,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -190,7 +190,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -198,7 +198,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -209,7 +209,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... claptrap"
+	@echo "... scavtrap"
 	@echo "... ClapTrap.o"
 	@echo "... ClapTrap.i"
 	@echo "... ClapTrap.s"

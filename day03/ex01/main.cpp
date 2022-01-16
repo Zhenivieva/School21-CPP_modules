@@ -7,8 +7,9 @@ int main( void )
 	ScavTrap b("John");
 	ScavTrap c = a;
 	b.attack("Sara");
-	c.takeDamage(10);
-	c.beRepaired(10);
+	c.takeDamage(20);
+	c.beRepaired(20);
+	c.guardGate();
 
 	return 0;
 }

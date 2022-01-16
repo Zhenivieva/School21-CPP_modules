@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
 
-project(claptrap)
+project(scavtrap)
 
 set(PATH ./)
 
@@ -15,4 +15,4 @@ set(SOURCE_FILES ${MY_SRCS})
 LINK_DIRECTORIES(./)
 
 # Add executable target with source files listed in SOURCE_FILES variable
-add_executable(claptrap ${SOURCE_FILES})
+add_executable(scavtrap ${SOURCE_FILES})

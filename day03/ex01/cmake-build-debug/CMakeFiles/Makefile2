@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/claptrap.dir/all
+all: CMakeFiles/scavtrap.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/claptrap.dir/clean
+clean: CMakeFiles/scavtrap.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/claptrap.dir
+# Target rules for target CMakeFiles/scavtrap.dir
 
 # All Build rule for target.
-CMakeFiles/claptrap.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target claptrap"
-.PHONY : CMakeFiles/claptrap.dir/all
+CMakeFiles/scavtrap.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target scavtrap"
+.PHONY : CMakeFiles/scavtrap.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/claptrap.dir/rule: cmake_check_build_system
+CMakeFiles/scavtrap.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/claptrap.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/scavtrap.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mmaryjan/projects/cpp/day03/ex01/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/claptrap.dir/rule
+.PHONY : CMakeFiles/scavtrap.dir/rule
 
 # Convenience name for target.
-claptrap: CMakeFiles/claptrap.dir/rule
-.PHONY : claptrap
+scavtrap: CMakeFiles/scavtrap.dir/rule
+.PHONY : scavtrap
 
 # clean rule for target.
-CMakeFiles/claptrap.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/claptrap.dir/build.make CMakeFiles/claptrap.dir/clean
-.PHONY : CMakeFiles/claptrap.dir/clean
+CMakeFiles/scavtrap.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scavtrap.dir/build.make CMakeFiles/scavtrap.dir/clean
+.PHONY : CMakeFiles/scavtrap.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
