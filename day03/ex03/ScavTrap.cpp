@@ -7,7 +7,6 @@
 ScavTrap::ScavTrap()
 {
 	std::cout << "ScavTrap: Default constructor called" << std::endl;
-	this->_name = "SaraScav";
 	this->_hitPoints = 100;
 	this->_energyPoints = 50;
 	this->_attackDamage = 20;
@@ -46,7 +45,7 @@ ScavTrap &ScavTrap::operator=(const ScavTrap &rhs)
 void ScavTrap::attack(std::string const &target)
 {
 	if (_hitPoints >= _attackDamage)
-		std::cout << "ScavTrap " << _name << " attacks " << target << ", causing " <<
+		std::cout << "ScavTrap " << this->_name << " attacks " << target << ", causing " <<
 		_attackDamage << " points of damage!" << std::endl;
 	else
 		std::cout << "ScavTrap has too few hitpoints" << std::endl;
@@ -54,7 +53,7 @@ void ScavTrap::attack(std::string const &target)
 
 void ScavTrap::takeDamage(unsigned int amount)
 {
-	std::cout << "ScavTrap " << _name << " takes " << amount << " points of damage!"
+	std::cout << "ScavTrap " << this->_name << " takes " << amount << " points of damage!"
 	<< std::endl;
 	_energyPoints -= amount;
 	if (_energyPoints <= 0)
@@ -63,7 +62,7 @@ void ScavTrap::takeDamage(unsigned int amount)
 
 void ScavTrap::beRepaired(unsigned int amount)
 {
-	std::cout << "ScavTrap " << _name << " has been repaired for " << amount << " points."
+	std::cout << "ScavTrap " << this->_name << " has been repaired for " << amount << " points."
 	<< std::endl;
 	_hitPoints += amount;
 	_energyPoints +=amount;
@@ -71,5 +70,5 @@ void ScavTrap::beRepaired(unsigned int amount)
 
 void ScavTrap::guardGate()
 {
-	std::cout << "ScavTrap " << _name << " has entered in Gate keeper mode"	<< std::endl;
+	std::cout << "ScavTrap " << this->_name << " has entered in Gate keeper mode"	<< std::endl;
 }

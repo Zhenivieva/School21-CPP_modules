@@ -3,9 +3,9 @@
 
 int main( void )
 {
-	DiamondTrap b("John");
+	DiamondTrap b("Sara");
 	DiamondTrap c = b;
-	b.attack("Sara");
+	b.attack("John");
 	c.takeDamage(20);
 	c.beRepaired(20);
 	c.highFivesGuys();

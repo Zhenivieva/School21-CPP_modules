@@ -4,7 +4,7 @@
 
 #include "DiamondTrap.hpp"
 
-DiamondTrap::DiamondTrap()
+DiamondTrap::DiamondTrap() : FragTrap(), ScavTrap()
 {
 	std::cout << "DiamondTrap: Default constructor called" << std::endl;
 	this->_name = "SaraDiamond";
@@ -13,7 +13,7 @@ DiamondTrap::DiamondTrap()
 	this->_attackDamage = FragTrap::_attackDamage;
 }
 
-DiamondTrap::DiamondTrap(const std::string &name)
+DiamondTrap::DiamondTrap(const std::string &name) : FragTrap(name), ScavTrap(name), ClapTrap(name + "_clap_name")
 {
 	std::cout << "DiamondTrap: Constructor with name called" << std::endl;
 	this->_name = name;
