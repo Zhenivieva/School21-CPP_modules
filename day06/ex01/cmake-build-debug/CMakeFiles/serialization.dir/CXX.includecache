@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mmaryjan/projects/cpp/day06/ex01/Serialization.cpp
+Serialization.hpp
+/Users/mmaryjan/projects/cpp/day06/ex01/Serialization.hpp
+iostream
+-
+
+/Users/mmaryjan/projects/cpp/day06/ex01/Serialization.hpp
+iostream
+-
+

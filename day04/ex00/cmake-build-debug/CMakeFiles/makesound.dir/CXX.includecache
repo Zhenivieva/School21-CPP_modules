@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mmaryjan/projects/cpp/day04/ex00/Animal.hpp
+iostream
+-
+
+/Users/mmaryjan/projects/cpp/day04/ex00/Cat.hpp
+Animal.hpp
+/Users/mmaryjan/projects/cpp/day04/ex00/Animal.hpp
+
+/Users/mmaryjan/projects/cpp/day04/ex00/Dog.hpp
+Animal.hpp
+/Users/mmaryjan/projects/cpp/day04/ex00/Animal.hpp
+
+/Users/mmaryjan/projects/cpp/day04/ex00/WrongAnimal.hpp
+iostream
+-
+
+/Users/mmaryjan/projects/cpp/day04/ex00/WrongCat.hpp
+WrongAnimal.hpp
+/Users/mmaryjan/projects/cpp/day04/ex00/WrongAnimal.hpp
+
+/Users/mmaryjan/projects/cpp/day04/ex00/main.cpp
+Animal.hpp
+/Users/mmaryjan/projects/cpp/day04/ex00/Animal.hpp
+Dog.hpp
+/Users/mmaryjan/projects/cpp/day04/ex00/Dog.hpp
+Cat.hpp
+/Users/mmaryjan/projects/cpp/day04/ex00/Cat.hpp
+WrongAnimal.hpp
+/Users/mmaryjan/projects/cpp/day04/ex00/WrongAnimal.hpp
+WrongCat.hpp
+/Users/mmaryjan/projects/cpp/day04/ex00/WrongCat.hpp
+iostream
+-
+string
+-
+

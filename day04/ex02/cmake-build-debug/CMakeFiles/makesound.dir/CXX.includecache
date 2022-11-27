@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mmaryjan/projects/cpp/day04/ex02/Animal.hpp
+iostream
+-
+
+/Users/mmaryjan/projects/cpp/day04/ex02/Brain.hpp
+iostream
+-
+
+/Users/mmaryjan/projects/cpp/day04/ex02/Cat.hpp
+Animal.hpp
+/Users/mmaryjan/projects/cpp/day04/ex02/Animal.hpp
+Brain.hpp
+/Users/mmaryjan/projects/cpp/day04/ex02/Brain.hpp
+
+/Users/mmaryjan/projects/cpp/day04/ex02/Dog.hpp
+Animal.hpp
+/Users/mmaryjan/projects/cpp/day04/ex02/Animal.hpp
+Brain.hpp
+/Users/mmaryjan/projects/cpp/day04/ex02/Brain.hpp
+
+/Users/mmaryjan/projects/cpp/day04/ex02/main.cpp
+Animal.hpp
+/Users/mmaryjan/projects/cpp/day04/ex02/Animal.hpp
+Dog.hpp
+/Users/mmaryjan/projects/cpp/day04/ex02/Dog.hpp
+Cat.hpp
+/Users/mmaryjan/projects/cpp/day04/ex02/Cat.hpp
+iostream
+-
+string
+-
+
